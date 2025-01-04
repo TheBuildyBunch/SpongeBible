@@ -3,6 +3,20 @@ body {
     color: #ffffff;
 }
 
+titleCard {
+    margin: 0px 100px 0px 100px;
+    display: block;
+    height: 300px;
+    background-position-y: -600px !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% !important;
+    border-radius: 20px;
+
+    img {
+       margin-top: 20px;
+    }
+}
+
 transcript {
     padding: 0px 200px 0px 200px;
     display: block;
@@ -22,6 +36,7 @@ dialogue, scene {
         scale: 105%;
         transition: 0.1s;
         background: #353535;
+        border-color: #ffffff;
     }
 }
 
