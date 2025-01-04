@@ -1,0 +1,80 @@
+body {
+    background-color: #252525;
+    color: #ffffff;
+}
+
+transcript {
+    padding: 0px 200px 0px 200px;
+    display: block;
+}
+
+dialogue, scene {
+    display: block;
+    font-family: "Helvetica";
+    font-size: 15pt;
+    margin: 20px 0px 20px 0px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 3px solid #000000;
+    background: #303030;
+
+    &:hover {
+        scale: 105%;
+        transition: 0.1s;
+        background: #353535;
+    }
+}
+
+speaker {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20pt;
+    display: block;
+    margin-bottom: 5px;
+
+    &.FrenchHistorian {
+        color: #7a9c6b;
+    }
+    &.SpongeBible {
+        color: #ffff00;
+    }
+    &.Gerrit {
+        color: #8e7cc3;
+    }
+    &.Padraig {
+        color: #f2a0ac;
+    }
+    &.SquiggleWalk {
+        color: #699ac6;
+    }
+    &.SirCancer {
+        color: #d0422b;
+    }
+    &.Incidental1 {
+        color: #d340da;
+    }
+    &.Incidental2 {
+        color: #4ab33a;
+    }
+    &.Incidental3 {
+        color: #e0d21a;
+    }
+}
+
+action {
+    color: #b0b0b0;
+    font-size: 12pt;
+}
+
+emphasis {
+    font-style: italic;
+}
+
+scene {
+    text-align: center;
+}
+
+song {
+    font-style: italic;
+    color: #9abdde;
+}
