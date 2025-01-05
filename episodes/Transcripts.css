@@ -13,7 +13,7 @@ titleCard {
     border-radius: 20px;
 
     img {
-       margin-top: 25px;
+       margin-top: 10px;
     }
 }
 
@@ -68,6 +68,9 @@ speaker {
     &.RussianRodent {
         color: #9c5735;
     }
+    &.Platonica {
+        color: #3b6a26;
+    }
     &.Incidental1 {
         color: #d340da;
     }
@@ -76,6 +79,18 @@ speaker {
     }
     &.Incidental3 {
         color: #e0d21a;
+    }
+}
+
+speakers {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20pt;
+    display: block;
+    margin-bottom: 5px;
+
+    speaker {
+        display: inline !important;
     }
 }
 
