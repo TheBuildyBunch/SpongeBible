@@ -65,6 +65,9 @@ speaker {
     &.SirCancer {
         color: #d0422b;
     }
+    &.RussianRodent {
+        color: #9c5735;
+    }
     &.Incidental1 {
         color: #d340da;
     }
