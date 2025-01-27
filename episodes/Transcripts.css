@@ -71,6 +71,12 @@ speaker {
     &.Platonica {
         color: #3b6a26;
     }
+    &.Apollo {
+        color: #a61c00;
+    }
+    &.Perry {
+        color: #00a0a0;
+    }
     &.Incidental1 {
         color: #d340da;
     }
@@ -85,6 +91,39 @@ speaker {
     }
     &.Incidental5 {
         color: #906010;
+    }
+    &.Incidental6 {
+        color: #4589e2;
+    }
+    &.Incidental7 {
+        color: #9045a1;
+    }
+    &.Incidental8 {
+        color: #259903;
+    }
+    &.Incidental9 {
+        color: #726709;
+    }
+    &.Incidental10 {
+        color: #99a027;
+    }
+    &.Incidental11 {
+        color: #929292;
+    }
+    &.Incidental12 {
+        color: #00aa56;
+    }
+    &.Incidental13 {
+        color: #3150a5;
+    }
+    &.Incidental14 {
+        color: #ff8844;
+    }
+    &.Incidental15 {
+        color: #aa4400;
+    }
+    &.Incidental16 {
+        color: #2040ff;
     }
 }
 
