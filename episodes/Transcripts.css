@@ -40,6 +40,17 @@ dialogue, scene {
     }
 }
 
+labeling {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20pt;
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+    opacity: 75%;
+    font-style: oblique;
+}
+
 speaker {
     font-weight: bold;
     text-decoration: underline;
@@ -70,6 +81,12 @@ speaker {
     }
     &.Platonica {
         color: #3b6a26;
+    }
+    &.Chimerica {
+        color: #76a5af;
+    }
+    &.Plessy {
+        color: #8fd1f2;
     }
     &.Apollo {
         color: #a61c00;
