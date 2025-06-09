@@ -88,6 +88,9 @@ speaker {
     &.Plessy {
         color: #8fd1f2;
     }
+    &.LadyPhaedra {
+        color: #ff68ff;
+    }
     &.Apollo {
         color: #a61c00;
     }
